@@ -10,6 +10,7 @@ export default function Cards({ item }) {
           display: "flex",
           flexDirection: "row",
           backgroundColor: "#171717",
+          borderRadius: "10px"
         }}
       >
         <div className={Style.image}>
@@ -36,6 +37,7 @@ export default function Cards({ item }) {
               justifyContent: "center",
               backgroundColor: "#171717",
               padding: "0px 30px",
+              borderRadius: "10px"
             }}
           >
             <div className={Style.dataFromApi}>

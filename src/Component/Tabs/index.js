@@ -4,8 +4,8 @@ import Style from "./index.module.css";
 export default function Tabs({ apiUserData }) {
   const data = [
     { id: 1, name: "Nearest rides" },
-    { id: 2, name: "Upcoming rides" },
-    { id: 3, name: "Past rides" },
+    { id: 2, name: "Upcoming rides (4)" },
+    { id: 3, name: "Past rides (2)" },
   ];
   const tabIndex = parseInt(localStorage.getItem("tabIndex"));
 
